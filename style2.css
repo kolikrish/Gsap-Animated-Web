@@ -1,0 +1,12 @@
+ul li a:before {
+    content: "";
+    position: absolute;
+    border-bottom: 2.3px solid black;
+    bottom: -3px;
+    width: 0;
+    transition: 0.4s;
+}
+
+a:hover::before {
+    width: 100%;
+}
